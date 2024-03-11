@@ -48,10 +48,10 @@ spring.mvc.view.suffix: .jsp
 ## MSSQL JDBC
 ``` 
 <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId>
-            <version>12.6.0.jre11</version>
-        </dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>12.6.0.jre11</version>
+</dependency>
 ```
 
 ## MySQL
