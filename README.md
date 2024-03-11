@@ -14,7 +14,7 @@ spring.mvc.view.suffix: .jsp
     <version>5.6.10.Final</version>
 </dependency>
 ```
-## Nhúng Tomcat 
+## Embed Tomcat
 ```
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
