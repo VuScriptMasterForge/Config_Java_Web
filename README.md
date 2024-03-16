@@ -78,6 +78,15 @@ spring.mvc.view.suffix: .jsp
     <artifactId>spring-boot-starter-validation</artifactId>
 </dependency>
 ```
+## BeanUtils
+```
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.9.4</version>
+</dependency>
+
+```
 ## Loop - JSTL 
 ```
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
