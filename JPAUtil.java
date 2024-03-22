@@ -6,6 +6,7 @@ import jakarta.persistence.Persistence;
 
 public class JPAUtil {
     private static EntityManagerFactory factory;
+    public EntityManager em = getEntityManager();
 
     public static EntityManager getEntityManager() {
         if (factory == null || !factory.isOpen()) {
