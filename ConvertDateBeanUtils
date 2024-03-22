@@ -1,0 +1,3 @@
+DateTimeConverter dtc = new DataConverter(new Date());
+dtc.setPattern("MM/dd/yyyy");
+ConvertUtils.register(dtc, Date.class);
