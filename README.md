@@ -2,8 +2,8 @@
 
 ## Config jsp 
 ```
-spring.mvc.view.prefix: /WEB-INF/view/
-spring.mvc.view.suffix: .jsp
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
 ```
 ## Hibernate
 
@@ -11,7 +11,7 @@ spring.mvc.view.suffix: .jsp
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core-jakarta</artifactId>
-    <version>5.6.10.Final</version>
+    <version>5.6.15.Final</version>
 </dependency>
 ```
 ## Embed Tomcat
@@ -40,7 +40,6 @@ spring.mvc.view.suffix: .jsp
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
-    <version>1.18.24</version>
     <scope>provided</scope>
 </dependency>
 ```
@@ -59,7 +58,7 @@ spring.mvc.view.suffix: .jsp
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.31</version>
+    <version>8.0.33</version>
 </dependency>
 ```
 
